@@ -1,0 +1,12 @@
+core: &core
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  port: 5432
+  username: jeff235255
+  password: 123456
+
+development:
+  <<: *core
+  database: omniauth_social_networks
